@@ -10,9 +10,10 @@ h1{
     font-size: 3rem;
     color: rgb(221, 214, 205);
 }
-h2{
-    font-size: 2rem;
+h2, h3{
+    font-size: 3rem;
     color: rgb(248, 213, 17);
+
 }
 p{
     text-align: justify;
