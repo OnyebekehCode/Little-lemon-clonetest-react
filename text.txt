@@ -1,12 +1,4 @@
-function Main(Props) {
-	return (
-		    <>
-
-                <div className="Main">
-                    <h1>{Props.h1}</h1>
-                    <h2>{Props.h2}</h2>
-                    <h3>{Props.h3}</h3>
-                </div>
+main code
 
 		<section>
                 <article>
@@ -30,8 +22,3 @@ function Main(Props) {
                     <img src="pic4.jpeg" alt="pic4"></img>
                 </article>   
                 </section>
-            </>
-
-           )
-   }
- export default Main
