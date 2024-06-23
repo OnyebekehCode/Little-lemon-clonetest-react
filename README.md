@@ -1,2 +1,2 @@
-### A project for learing how to navigate around React.
+### A beginner React project.
 project capstone on coursera guided by Meta
