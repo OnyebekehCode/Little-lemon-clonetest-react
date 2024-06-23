@@ -11,7 +11,7 @@ function App() {
      <Header/>
      <Nav/>
      <Main/>
-     <Intro h1="a" />
+     <Intro h1="Available Stores" />
      <Intro h2="b" />
      <Intro h3="c" />
      <Footer/>
