@@ -1,34 +1,32 @@
-function Header(){
-    const Styles=
-        body;{
-            background-color; "rgb(0, 0, 7)";
-            font-family;"Arial, Helvetica, sans-serif";
-            margin-top; "3rem";
-            margin-bottom; "3rem";
-            margin-left; "5%";
-            margin-right; "5%";
-        }
-        function handleClick(){
-            if (Styles == lightmode);
-                console.log(Header)
-            else(Styles= darkmode);
-                console.log(darkmode) 
+import React, { useState } from 'react';
+import './styles.css';
 
+function Header() {
+    const [isLightMode, setIsLightMode] = useState(true);
+
+    const handleClick = () => {
+        setIsLightMode(!isLightMode);
+        
+        if (isLightMode) {
+            document.body.classList.add('dark-mode');
+            document.body.classList.remove('light-mode');
+        } else {
+            document.body.classList.add('light-mode');
+            document.body.classList.remove('dark-mode');
         }
-    
-    return(
+    };
+
+    return (
         <>
-        <div>
-            (Styles ? darkmode : lightmode)
-        </div>
-        <h1>Little Lemon Restaurant </h1>
-            <img src="Logo.jpg" alt="Logo" class="logo"></img>
-        <div>
-            
-        </div>
-
-        </>  
-
-    )
+            <div>
+                <h1>Little Lemon Restaurant</h1>
+                <img src="Logo.jpg" alt="Logo" className="logo" />
+            </div>
+            <button className='darkmode' onClick={handleClick}>
+                {isLightMode ? "Dark Mode" : "Light Mode"}
+            </button>
+        </>
+    );
 }
- export default Header
+
+export default Header;
