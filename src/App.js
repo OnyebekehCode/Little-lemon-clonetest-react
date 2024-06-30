@@ -1,4 +1,5 @@
 import React from "react";
+import './styles.css'
 import Header from "./Components/Header";
 import Nav from "./Components/Nav";
 import Main from "./Components/Main";
@@ -11,7 +12,7 @@ function App() {
      <Header/>
      <Nav/>
      <Main/>
-     <Intro h1="Available Stores" /
+     <Intro h1="Available Stores" />
      <Footer/>
     </div>
   );
