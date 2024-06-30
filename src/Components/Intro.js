@@ -3,9 +3,7 @@ function Intro (Props) {
 		    <>
 
                 <div className="Intro">
-                    <h1>{Props.h1}</h1>
-                    <h2>{Props.h2}</h2>
-                    <h3>{Props.h3}</h3>
+                    <h1>{Props.h1}</>
                 </div>
 
 		        <section>
