@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Styles.css';
 
 function Header() {
     const [isLightMode, setIsLightMode] = useState(true);

@@ -3,7 +3,7 @@ function Intro (Props) {
 		    <>
 
                 <div className="Intro">
-                    <h1>{Props.h1}</>
+                    <h1>{Props.h1}</h1>
                 </div>
 
 		        <section>
