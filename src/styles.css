@@ -28,10 +28,10 @@ h2, h3{
 
 }
 .darkmode{
-    position:absolute;
+    position:fixed;
     top: 0;
     right: 0;
-    margin: 10px;
+    width: 200px;
 }
 p{
     text-align: justify;
