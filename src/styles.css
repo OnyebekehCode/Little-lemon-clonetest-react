@@ -51,9 +51,9 @@ p{
     padding: 5px 0;
 }
 .logo{
-    display: block;
+    display: inline-block;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: -20px;
     padding: 20px 0;
 }
 ul {
